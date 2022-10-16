@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>SCIS Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style2.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header text-center">
+                <a href="#"><img src="uoh_logo.jpg" height="60px", width="60px" class="img-fluid rounded-circle clo"></a><br>
+                <h3>SCIS Dashboard</h3>
+                <span>University of Hyderabad</span>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>CONTROLS</p>
+                <li class="active">
+
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#" data-toggle="collapse" aria-expanded="false">Department</a>
+                    <ul class="collapse list-unstyled" id="noticeSubmenu">
+                    </ul>
+                </li>
+                <li>
+                    <a href="#courses" data-toggle="collapse" aria-expanded="false">Courses</a>
+                    <ul class="collapse list-unstyled" id="SyllabusSubmenu">
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" data-toggle="collapse" aria-expanded="false">Projects</a>
+                    <ul class="collapse list-unstyled" id="ResultSubmenu">
+                    </ul>
+                </li>
+                <li>
+                    <a href="#faculty" data-toggle="collapse" aria-expanded="false">SCIS Faculty information</a>
+                    <ul class="collapse list-unstyled" id="noticeSubmenu">
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#" data-toggle="collapse" aria-expanded="false">Student achievements</a>
+                    <ul class="collapse list-unstyled" id="noticeSubmenu"></ul>
+
+                </li>
+               
+                 
+                 <li>
+                    <a href="#" data-toggle="collapse" aria-expanded="false">Funding Agency</a>
+                    <ul class="collapse list-unstyled" id="noticeSubmenu"></ul>
+
+                </li>
+                 
+                 <li>
+                    <a href="#" data-toggle="collapse" aria-expanded="false">Faculty Ranking Status</a>
+                    <ul class="collapse list-unstyled" id="noticeSubmenu"></ul>
+                </li>
+  
+            </ul>
+
+        </nav>
+    </div>
+
+    
+
+
+         <!-- courses -->
+      <main class="cards" id="courses">
+        <article class="card">
+          <img src="PHD-CSE.jpg" alt="Sample photo">
+          <div class="text">
+            <h3>Ph.D. Programme</h3>
+            <p>The Ph. D programme in Computer Science and Engineering imparts the knowledge, skills and attitude to do world class research in the area of computer science. </p>
+            <button>More Information</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="M.Tech-Integrated-Course.jpg" alt="Sample photo">
+          <div class="text">
+            <h3>5- Year Integrated M.Tech Programme</h3>
+            <p>The School has introduced a 5-year Integrated M.Tech. programme in Computer Science with effect from the academic year 2014-15. The students will be awarded MTech(CS) degree at the end of five years. </p>
+            <button>More Information</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="M. tech.jpg" alt="Sample photo">
+          <div class="text">
+            <h3>Master of Technology in Computer Science</h3>
+            <p>M.Tech Computer Science Programme is a four-semester course including two semesters of course work and two semesters of project work. This programme is meant for graduates in engineering disciplines and postgraduates in related sciences .</p>
+            <button>More Information</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="MTech-in-Artificial-Intelligence.png" alt="Sample photo">
+          <div class="text">
+            <h3>Master of Technology in Artificial Intelligence</h3>
+            <p>M.Tech Artificial Intelligence is also a four-semester course including two semesters of course work and two semesters of project work. This programme is meant for students already well equipped in computing sciences .</p>
+            <button>More Information</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="M. Tech IT.jpg" alt="Sample photo">
+          <div class="text">
+            <h3>Master of Technology in Information Technology</h3>
+            <p>M.Tech Information Technology is a four-semester programme including two semesters of course work and two semesters of project work meant for graduates in engineering discipline and postgraduates in related sciences.</p>
+            <button>More Information</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="MCA.jpg" alt="Sample photo">
+          <div class="text">
+            <h3>Master of Computer Applications</h3>
+            <p>M.C.A. Programme aims to prepare graduates in all the major areas of computer science, relevant aspects of mathematics and management so that they can take up both technical and managerial positions in industry.</p>
+            <button>More Information</button>
+          </div>
+        </article>
+      </main>
+
+       
+      <div class="container py-5" id="faculty">
+       
+
+        <div class="row pb-5 mb-4">
+  
+        <!-- Faculty Profiles-->
+        <h2 class="font-weight-bold mb-2 text-center">FACULTY OF SCIS</h2>
+        
+      
+        <div class="row pb-5 mb-4">
+      
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <!-- Card-->
+            <div class="card rounded shadow-sm border-0">
+              <div class="card-body p-0">
+                <div class="bg-primary px-5 py-4 text-center card-img-top"><img src="Alok Singh.png" alt="..." width="100" class="rounded-circle mb-2 img-thumbnail d-block mx-auto">
+                  <h5 class="text-white mb-0">Alok Singh</h5>
+                  <p class="small text-white mb-0">Professor</p>
+                </div>
+                <div class="p-4 d-flex justify-content-center">
+                  <ul class="list-inline mb-0">
+                    <li class="list-inline-item">
+                      <h5 class="font-weight-bold mb-0 d-block"><a href="https://scis.uohyd.ac.in/People/profile/as_profile.php">More Details</a></h5>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <!-- Card-->
+            <div class="card rounded shadow-sm border-0">
+              <div class="card-body p-0">
+                <div class="bg-success px-5 py-4 text-center card-img-top"><img src="Anjeneya Swami Kare.jpg" alt="..." width="100" class="rounded-circle mb-2 img-thumbnail d-block mx-auto">
+                  <h5 class="text-white mb-0">Anjeneya Swami Kare</h5>
+                  <p class="small text-white mb-0">Assistant Professor</p>
+                </div>
+                <div class="p-4 d-flex justify-content-center">
+                  <ul class="list-inline mb-0">
+                    <li class="list-inline-item">
+                      <h5 class="font-weight-bold mb-0 d-block"><a href="https://scis.uohyd.ac.in/People/profile/ka_profile.php">More Details</a></h5>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <!-- Card-->
+            <div class="card rounded shadow-sm border-0">
+              <div class="card-body p-0">
+                <div class="bg-info px-5 py-4 text-center card-img-top"><img src="Arun Agarwal.png" alt="..." width="100" class="rounded-circle mb-2 img-thumbnail d-block mx-auto">
+                  <h5 class="text-white mb-0">Arun Agarwal</h5>
+                  <p class="small text-white mb-0">Senior Professor</p>
+                </div>
+                <div class="p-4 d-flex justify-content-center">
+                  <ul class="list-inline mb-0">
+                    <h5 class="font-weight-bold mb-0 d-block"><a href="https://scis.uohyd.ac.in/People/profile/aa_profile.php">More Details</a></h5>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <!-- Card-->
+            <div class="card rounded shadow-sm border-0">
+              <div class="card-body p-0">
+                <div class="bg-warning px-5 py-4 text-center card-img-top"><img src="Avatharam Ganivada.png" alt="..." width="100" class="rounded-circle mb-2 img-thumbnail d-block mx-auto">
+                  <h5 class="text-white mb-0">Avatharam Ganivada</h5>
+                  <p class="small text-white mb-0">Assistant Professor</p>
+                </div>
+                <div class="p-4 d-flex justify-content-center">
+                  <ul class="list-inline mb-0">
+                    <h5 class="font-weight-bold mb-0 d-block"><a href="https://scis.uohyd.ac.in/People/profile/ga_profile.php">More Details</a></h5>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <!-- Card-->
+            <div class="card rounded shadow-sm border-0">
+              <div class="card-body p-0">
+                <div class="bg-info px-5 py-4 text-center card-img-top"><img src="Chakravarthy Bhagvati.png" alt="..." width="100" class="rounded-circle mb-2 img-thumbnail d-block mx-auto">
+                  <h5 class="text-white mb-0">Chakravarthy Bhagvati </h5>
+                  <p class="small text-white mb-0">Professor and Dean</p>
+                </div>
+                <div class="p-4 d-flex justify-content-center">
+                  <ul class="list-inline mb-0">
+                    <h5 class="font-weight-bold mb-0 d-block"><a href="https://scis.uohyd.ac.in/People/profile/cb_profile.php">More Details</a></h5>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <!-- Card-->
+            <div class="card rounded shadow-sm border-0">
+              <div class="card-body p-0">
+                <div class="bg-warning px-5 py-4 text-center card-img-top"><img src="Nagamani M..png" alt="..." width="100" class="rounded-circle mb-2 img-thumbnail d-block mx-auto">
+                  <h5 class="text-white mb-0">Nagamani M.</h5>
+                  <p class="small text-white mb-0">Assistant Professor</p>
+                </div>
+                <div class="p-4 d-flex justify-content-center">
+                  <ul class="list-inline mb-0">
+                    <h5 class="font-weight-bold mb-0 d-block"><a href="https://scis.uohyd.ac.in/People/profile/mn_profile.php">More Details</a></h5>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <!-- Card-->
+            <div class="card rounded shadow-sm border-0">
+              <div class="card-body p-0">
+                <div class="bg-success px-5 py-4 text-center card-img-top"><img src="Digambar Pawar.png" alt="..." width="100" class="rounded-circle mb-2 img-thumbnail d-block mx-auto">
+                  <h5 class="text-white mb-0">Digambar Pawar</h5>
+                  <p class="small text-white mb-0">Assistant Professor</p>
+                </div>
+                <div class="p-4 d-flex justify-content-center">
+                  <ul class="list-inline mb-0">
+                    <li class="list-inline-item">
+                      <h5 class="font-weight-bold mb-0 d-block"><a href="https://scis.uohyd.ac.in/People/profile/dp_profile.php">More Details</a></h5>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+
+
+    <!-- Page Content  -->
+    <div id="content">
+
+        <button type="button" id="sidebarCollapse" class="btn btn-info">
+            <i class="fas fa-align-left"></i>
+            <span>Toggle Sidebar</span>
+        </button>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+</body>
+
+</html>
